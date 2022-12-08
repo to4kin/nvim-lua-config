@@ -125,7 +125,7 @@ require('nvim-treesitter.configs').setup {
 -- Setup nvim-cmp.
 -- nvim-cmp supports additional completion capabilities
 local capabilities = lsp.protocol.make_client_capabilities()
-capabilities = require('cmp_nvim_lsp').update_capabilities(capabilities)
+capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
 
 vim.o.completeopt = "menu,menuone,noselect"
 local cmp = require('cmp')
