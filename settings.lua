@@ -7,7 +7,7 @@ cmd [[
   syntax enable
   filetype plugin on
 
-  colorscheme onedarkpro
+  colorscheme onedark  
 
   "let g:airline_section_a = airline#section#create(['mode', 'crypt', 'paste', 'spell', 'iminsert'])
 ]]
